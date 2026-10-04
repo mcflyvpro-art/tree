@@ -1,0 +1,31 @@
+{
+  "name": "Arbre des trois monothéismes",
+  "short_name": "Arbre",
+  "description": "Judaïsme, christianisme, islam : d'Adam aux courants d'aujourd'hui, un arbre interactif des filiations, schismes, preuves et confrontations.",
+  "lang": "fr",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./#/arbre",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#13161D",
+  "theme_color": "#13161D",
+  "categories": ["education", "books", "reference"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ],
+  "shortcuts": [
+    {"name": "Parcours guidés", "short_name": "Apprendre", "url": "./#/apprendre", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Quiz", "url": "./#/quiz", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Lexique", "url": "./#/lexique", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ],
+  "screenshots": [
+    {"src": "icons/screen-wide.png", "sizes": "1600x900", "type": "image/png", "form_factor": "wide", "label": "L'arbre et une fiche"},
+    {"src": "icons/screen-narrow.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Une fiche sur mobile"}
+  ]
+}
